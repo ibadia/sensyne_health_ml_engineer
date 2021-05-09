@@ -55,3 +55,6 @@ python db/1_db_data_creation.py
 5. Once this is done, then the code will load the transformed data from etl then it will insert the data into the database created.
 6. In the end we will see the mushrooms_database.db file which will have the database ready to be accessed
 
+
+
+
