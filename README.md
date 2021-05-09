@@ -80,3 +80,6 @@ Because of the categorical nature of the variables, all columns except for id in
 All Categories table will have all unique values in the data.
 This schema will be feasible for CATEGORICAL DATABASE. 
 
+
+One thing to note here is that I have kept the category name itself as the primary key of the category table. in this way our queries will be optimised on the database level at the same time it wont clutter the sql query
+
