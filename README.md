@@ -1,4 +1,14 @@
-# sensyne_health_ml_engineer
+## IMPORTANT NOTE
+
+**Please note that I only recieved the word file named Assignment_-Data_Engineer_July.docx**
+
+**I did NOT recieved the dataset with it but from the word file I saw that this assignment is related to mushroom dataset so few searches on google about mushroom dataset got me to a kaggle link which had the dataset similar to the one defined in the word file**
+
+I got the data from here:
+https://www.kaggle.com/uciml/mushroom-classification
+
+
+# sensyne_health_machine_learning_engineer (Ibad Ur Rahman)
 Assessment for Sensyne Health ML engineer test
 
 
@@ -88,4 +98,26 @@ This schema will be feasible for CATEGORICAL DATABASE.
 
 
 One thing to note here is that I have kept the category name itself as the primary key of the category table. in this way our queries will be optimised on the database level at the same time it wont clutter the sql query
+
+
+
+
+
+### Troubleshooting tips
+1. Please note that you need to run the code from your home directory for example :
+```bash
+#WRONG APPROACH
+python 1_data_dictionary_creation.py
+```
+
+
+```bash
+#RIGHT APPROACH
+python etl/1_data_dictionary_creation.py
+```
+2. Please also note that first run the programs from ETL folder, then DB folder, then if you want you can run the notebook in SQL folder
+3. Please also ensure that mushrooms.csv file is PRESENT in THE HOME DIRECTORY
+4. For running notebook you will need jupyter notebook because ther results are interactive and would be better explained in notebook
+5. Also if you just want to see the code and results then you can simple open the PDF file in home directory which is THE NOTEBOOK CONVERTED TO PDF via latex
+6. THE PDF contains the code plus explanations. The queries used and the graphs are in the pdf and the notebook as well.
 
