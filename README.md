@@ -12,6 +12,12 @@ pip install -r requirements.txt
 make sure to have python 3.8.8 installed
 # NOTE
 PLEASE RUN ALL CODE IN HOME DIRECTLY
+
+## FILE STRUCTURE
+![image](https://user-images.githubusercontent.com/14020143/117579950-51244000-b0ed-11eb-9ff2-7927fb223d99.png)
+
+
+
 ## ETL Code run
 
 ```bash
