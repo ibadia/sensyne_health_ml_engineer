@@ -10,7 +10,7 @@ STEPS TO RUN THIS PROGRAM:
 pip install -r requirements.txt
 ```
 make sure to have python 3.8.8 installed
-#NOTE
+# NOTE
 PLEASE RUN ALL CODE IN HOME DIRECTLY
 ## ETL Code run
 
