@@ -64,3 +64,19 @@ python db/1_db_data_creation.py
 sql/ResultsNotebook.ipynb
 ```
 4. Along with that the sql queries used are also there in Q1.sql, Q2.sql and Q3.sql
+
+
+
+
+### DATABASE SCHEMA EXPLANATION
+I created the db schema keeping into mind the bigger picture that how will the data look when it will be in huge amount.
+This dataset is categorical which means that if we use flatfiles and the dataset if huge then many of our spaces will be wasted for that I have created two tables
+
+file:///home/ibadski/Desktop/sensyne_health_ml_engineer/erd.png![image](https://user-images.githubusercontent.com/14020143/117579755-44ebb300-b0ec-11eb-91a7-e304586609cc.png)
+
+
+
+Because of the categorical nature of the variables, all columns except for id in mushrooms table are a foreign key which is referenced in allCategories table.
+All Categories table will have all unique values in the data.
+This schema will be feasible for CATEGORICAL DATABASE. 
+
