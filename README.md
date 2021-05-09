@@ -56,5 +56,11 @@ python db/1_db_data_creation.py
 6. In the end we will see the mushrooms_database.db file which will have the database ready to be accessed
 
 
-
-
+## QUERIES AND THEIR RESULTS
+1. There were three questions that were there in word file given and attached as well. 
+2. For the answers of those three questions please open the ResultsNotebook.pdf file and in there there is a detail explanation along with code and answers are given
+3. If the user intends to view the notebook itself, it is present in
+```bash
+sql/ResultsNotebook.ipynb
+```
+4. Along with that the sql queries used are also there in Q1.sql, Q2.sql and Q3.sql
